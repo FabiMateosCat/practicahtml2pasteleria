@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- U ICON -->
+	<link rel="shortcut icon" type="img/icono" href="img/letraES.png"/>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Sweet Cake</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@300&family=Source+Serif+4&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/47a4834f43.js" crossorigin="anonymous"></script>
+    <title>Levantar pedido</title>
+</head>
+<body>
+    <header>
+        <input type="checkbox" id="btn-menu">
+		<label for="btn-menu"><img src="icono-menu.jpg" alt="">
+		</label>
+        <nav class="menu">
+            <ul>
+				<li><a href="menupasteleria.html"><i class="fa-solid fa-house"></i>Inicio</a></li>
+				<li><a href="pastelero.html"><i class="fa-brands fa-buysellads"></i>Pastelero</a></li>
+				<li><a href="pedido.html">Pedido<i class="fa-solid fa-cart-shopping"></i></a></li>
+			</ul>
+        </nav>
+    </header>
+    <h1>Aquí se hace el pedido</h1>
+
+    <form action="pedido.js">
+        <label for="Nombre">Danos tu Nombre, Pastelchocko</label></br>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre">
+
+        <br><br>
+
+        <label for="tell">Input de Teléfono</label><br>
+        <input type="tel" id="tell" name="tell" maxlength="10"><br>
+
+        <label for="correo1">Input de Correo</label><br>
+        <input type="email" id="correo1" name="correo1"><br><br>
+
+        <!--Etiquetas para inputs-->
+        <label for="Inputs"> Descripción general del pastel</label><br>
+        <!--Entradas / inputs-->
+        <input type="text" id="Input" name="Input1">
+        <br><br>
+
+        <p>¿Pastel con que otros sabores?</p>
+        <input type="checkbox" id="galleta" name="galleta" value="Galleta">
+        <label for="">Galleta</label>
+        <input type="checkbox" id="chocolate" name="chocolate" value="Chocolate">
+        <label for="chocolate">Chocolate</label>
+        <input type="checkbox" id="malvavisco" name="malvavisco" value="Malvavisco">
+        <label for="malvavisco">Malvavisco</label>
+        <input type="checkbox" id="leche" name="leche" value="Leche">
+        <label for="leche">Leche</label>
+        <input type="checkbox" id="limon" name="limon" value="Limon">
+        <label for="limon">Limon</label>
+        <input type="checkbox" id="zanahoria" name="zanahoria" value="Zanahoria">
+        <label for="zanahoria">Zanahoria</label>
+        <input type="checkbox" id="naranja" name="naranja" value="Naranja">
+        <label for="naranja">Naranja</label>
+        <input type="checkbox" id="fresa" name="fresa" value="Fresa">
+        <label for="fresa">Fresa</label>
+        <input type="checkbox" id="arroz" name="arroz" value="Arroz">
+        <label for="naranja">arroz</label>
+        
+
+        
+        <p>¿Pastel con que otros adornos?</p>
+        <input type="checkbox" id="chispas" name="chispas" value="Chispas">
+        <label for="">Chispas</label>
+        <input type="checkbox" id="pasas" name="pasas" value="Pasas">
+        <label for="pasas">Pasas</label>
+        <input type="checkbox" id="nueces" name="nueces" value="Nueces">
+        <label for="pasas">Nueces</label>
+        <input type="checkbox" id="panditas" name="panditas" value="Panditas">
+        <label for="pasas">Panditas</label>
+
+        <br><br>
+        <input type="reset">
+        <input type="submit">
+        <br><br>
+    </form>
+
+    <footer>
+        <p>Dirección:Fracc:Galaxia,Tel:9933595385,Horarios:Lunes a viernes 8am a 7pm</p>
+    </footer>
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+</body>
+</html>
